@@ -1,9 +1,0 @@
-server:
-  port: 8011
-
-spring:
-  datasource:
-    url: jdbc:postgresql://125.64.98.21:5432/bldthingsboard
-    username: postgres
-    password: beilaidian
-    driverClassName: org.postgresql.Driver
