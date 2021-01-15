@@ -1,9 +1,14 @@
 package com.cqbld.po;
 
+import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.annotations.TableName;
+import com.baomidou.mybatisplus.enums.IdType;
 import lombok.Data;
 
 @Data
-public class AuditLogPo {
+@TableName("audit_log")
+public class AuditLog {
+    @TableId(value = "id", type = IdType.UUID)
     private String id;
     private String tenantId;
     private String customerId;
