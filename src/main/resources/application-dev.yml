@@ -8,7 +8,7 @@ spring:
       connection-timeout: 10000
       idle-timeout: 30000
       connection-init-sql: set names utf8mb4
-        #动态数据源配置
+    #动态数据源配置
     dynamic:
       #主数据源
       primary: mysql1

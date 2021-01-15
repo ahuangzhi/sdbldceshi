@@ -21,7 +21,7 @@ import java.util.Map;
  */
 @Service
 @Transactional
-@DS(value = "mysql1")
+//@DS(value = "mysql1")
 public class BasicsEquipmentListServiceImpl{
 
     @Resource

@@ -14,7 +14,7 @@ import java.util.List;
  * @description: TODO
  * @date 2021/1/1417:29
  */
-@DS(value = "mysql1")
+//@DS(value = "mysql1")
 public interface BasicsEquipmentListDao extends BaseMapper{
 
     List<BasicsEquipmentList> getBasicsEquipmentLists();
